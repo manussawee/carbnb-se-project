@@ -1,0 +1,19 @@
+{
+  "name": "MCLAREN SENNA",
+  "price": 900,
+  "usedAmount": 345,
+  "location": "Bangkok",
+  "distance": 0.5,
+  "deposit": 150,
+  "user": {
+    "avatar": "http://static.tumblr.com/0e6cf956989d33b71f43a7f787f4eaf2/hvz81xs/Zjuo38cz3/tumblr_static_eqrxhvz9kfkskckw0kogwwk8o.jpg",
+    "name": "Tony Stark",
+    "phone": "090-030-7704"
+  },
+  "images": [
+    "https://cars.mclaren.com/files/live/sites/mclaren/files/cars-mclaren-com-Main/McLaren%20Model%20Section/P15/Header-CGI-Garage-3.jpg?t=w1440",
+    "https://c.slashgear.com/wp-content/uploads/2017/12/McLaren-Senna-2.jpg",
+    "https://anycoin.news/wp-content/uploads/2018/08/McLaren-Senna-2018-2019-2-min.jpg",
+    "https://www.wsupercars.com/wallpapers/McLaren/2019-McLaren-Senna-V7-1080.jpg"
+  ]
+}

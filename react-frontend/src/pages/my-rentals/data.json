@@ -1,0 +1,63 @@
+{
+  "currentRentals": [
+    {
+      "id": 1,
+      "Loading...": {
+        "title": "Loading...",
+        "type": "Loading...",
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Bangkok",
+        "user": {
+          "fullname": "Manussawee Tepakidareekul",
+          "phone": "091-234-5678",
+          "avatar": "http://mouse.latercera.com/wp-content/uploads/2017/08/stark.jpg"
+        }
+      },
+      "status": "renting",
+      "total": 3600,
+      "deposit": 5400,
+      "startDate": "20 October 2018",
+      "returnDate": "24 October 2018"
+    },
+    {
+      "id": 2,
+      "Loading...": {
+        "title": "Loading...",
+        "type": "Loading...",
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Bangkok",
+        "user": {
+          "fullname": "Manussawee Tepakidareekul",
+          "phone": "091-234-5678",
+          "avatar": "http://mouse.latercera.com/wp-content/uploads/2017/08/stark.jpg"
+        }
+      },
+      "status": "reserve",
+      "total": 3600,
+      "deposit": 5400,
+      "startDate": "20 October 2018",
+      "returnDate": "24 October 2018"
+    }
+  ],
+  "oldRentals": [
+    {
+      "id": 1,
+      "Loading...": {
+        "title": "Loading...",
+        "type": "Loading...",
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Bangkok",
+        "user": {
+          "fullname": "Manussawee Tepakidareekul",
+          "phone": "091-234-5678",
+          "avatar": "http://mouse.latercera.com/wp-content/uploads/2017/08/stark.jpg"
+        }
+      },
+      "status": "finish",
+      "total": 3600,
+      "deposit": 5400,
+      "startDate": "20 October 2018",
+      "returnDate": "24 October 2018"
+    }
+  ]
+}

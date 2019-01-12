@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "title": "Loading...",
+      "type": "Loading...",
+      "price": 900,
+      "status": "available",
+      "location": "Loading...",
+      "description": "test test",
+      "startDate": "",
+      "endDate": "",
+      "availableType": "repeat",
+      "days": [0, 0, 1, 1, 0, 0, 1],
+      "images": ["https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv"]
+    },
+    {
+      "id": 2,
+      "title": "Loading...",
+      "type": "Loading...",
+      "price": 900,
+      "status": "renting",
+      "location": "Loading...",
+      "description": "test test",
+      "startDate": "",
+      "endDate": "",
+      "availableType": "repeat",
+      "days": [0, 0, 1, 1, 0, 0, 1],
+      "images": ["https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv"]
+    },
+    {
+      "id": 3,
+      "title": "Loading...",
+      "type": "Loading...",
+      "price": 900,
+      "status": "unavailable",
+      "location": "Loading...",
+      "description": "test test",
+      "startDate": "",
+      "endDate": "",
+      "availableType": "repeat",
+      "days": [0, 0, 1, 1, 0, 0, 1],
+      "images": ["https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv"]
+    }
+  ]
+}

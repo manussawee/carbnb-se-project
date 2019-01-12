@@ -1,0 +1,39 @@
+image: node:10
+
+before_script:
+  - npm ci
+
+stages:
+  - lint
+  - test
+  - build
+  - deploy
+
+lint:
+  stage: lint
+  script:
+    - npm install --global eslint@5.6.0 eslint-config-airbnb@17.1.0 eslint-plugin-import@2.14.0 eslint-plugin-jsx-a11y@6.1.2 eslint-plugin-react@7.11.0 eslint-config-react-app@3.0.4 babel-eslint@9.0.0 eslint-plugin-flowtype@2.50.1
+    - eslint .
+
+test:
+  stage: test
+  script:
+    - npm test -- --coverage
+
+build:
+  stage: build
+  script: npm run build
+  artifacts:
+    paths:
+      - build
+
+deploy:
+  stage: deploy
+  script:
+    - npm install --global --unsafe-perm now
+    - now ./build -t $NOW_TOKEN -A ../now.json -T $NOW_TEAM_NAME && now alias -t $NOW_TOKEN -T $NOW_TEAM_NAME
+  dependencies:
+    - build
+  only:
+    - master
+

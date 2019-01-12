@@ -1,0 +1,88 @@
+{
+  "locations": {
+    "Loading...": [
+      {
+        "id": 1,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 2,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 3,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 4,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      }
+    ],
+    "Loading...": [
+      {
+        "id": 1,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 2,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 3,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      },
+      {
+        "id": 4,
+        "title": "Loading...",
+        "type": "Car",
+        "price": 900,
+        "image": "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/porsche-911_1.jpg?itok=YoNRZMqv",
+        "location": "Loading...",
+        "usedAmount": 234,
+        "duration": 0.5
+      }
+    ]
+  }
+}

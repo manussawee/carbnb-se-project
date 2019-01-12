@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "name": "carbnb",
+  "alias": "carbnb.now.sh",
+  "routes": [
+    { "src": "/api(.*)", "dest": "http://ec2-3-0-146-195.ap-southeast-1.compute.amazonaws.com/api$1" },
+    { "src": "/socket.io(.*)", "dest": "http://ec2-3-0-146-195.ap-southeast-1.compute.amazonaws.com:8000/socket.io$1" }
+  ]
+}
