@@ -19,10 +19,12 @@ services:
   frontend:
     links:
       - backend
+    depends_on:
+      - backend
     environment:
-      - REACT_APP_BACKEND_PATH=backend/api
+      - REACT_APP_BACKEND_PATH=http://backend/api
       - REACT_APP_FRONTEND_PATH=${WEB_URL}
-      - REACT_APP_SOCKET_PATH=backend:8000
+      - REACT_APP_SOCKET_PATH=http://backend:8000
       - REACT_APP_OMISE_PKEY=pkey_test_5e08bof53jrfb8vi6fa
     build: ./react-frontend
     ports:
