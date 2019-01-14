@@ -22,9 +22,9 @@ services:
     depends_on:
       - backend
     environment:
-      - REACT_APP_BACKEND_PATH=http://${BACKEND_IP}:3000/api
-      - REACT_APP_FRONTEND_PATH=http://${FRONTEND_IP}
-      - REACT_APP_SOCKET_PATH=http://${BACKEND_IP}:8000
+      - REACT_APP_BACKEND_PATH=http://34.80.139.21:3000/api
+      - REACT_APP_FRONTEND_PATH=http://34.80.139.21
+      - REACT_APP_SOCKET_PATH=http://34.80.139.21:8000
       - REACT_APP_OMISE_PKEY=pkey_test_5e08bof53jrfb8vi6fa
     build: ./react-frontend
     ports:
